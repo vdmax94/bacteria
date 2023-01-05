@@ -2,6 +2,8 @@
     "name": "root/html",
     "autoload": {
         "psr-4": {
+            "Config\\": "Config/",
+            "App\\": "App/"
         }
     },
     "authors": [
@@ -10,6 +12,7 @@
         }
     ],
     "require": {
-        "larapack/dd": "^1.1"
+        "larapack/dd": "^1.1",
+        "vlucas/phpdotenv": "^5.5"
     }
 }
