@@ -1,0 +1,15 @@
+{
+    "name": "root/html",
+    "autoload": {
+        "psr-4": {
+        }
+    },
+    "authors": [
+        {
+            "name": "vdmax"
+        }
+    ],
+    "require": {
+        "larapack/dd": "^1.1"
+    }
+}
