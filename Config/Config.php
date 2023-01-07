@@ -3,7 +3,7 @@ namespace Config;
 class Config
 {
     protected static array $configs = [];
-    private static Config|null $instance=null;
+    private static Config|null $instance = null;
 
     private function __construct(){
 
@@ -12,7 +12,7 @@ class Config
     protected static function getInstance(): self
     {
         if (is_null(self::$instance)){
-            self::$instance=new self;
+            self::$instance = new self;
         }
         return self::$instance;
     }

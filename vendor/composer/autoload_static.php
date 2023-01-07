@@ -26,6 +26,10 @@ class ComposerStaticInit9830cd1a64c6a167bdb56e5576054f26
         array (
             'PhpOption\\' => 10,
         ),
+        'M' => 
+        array (
+            'Migration\\' => 10,
+        ),
         'G' => 
         array (
             'GrahamCampbell\\ResultType\\' => 26,
@@ -36,6 +40,7 @@ class ComposerStaticInit9830cd1a64c6a167bdb56e5576054f26
         ),
         'C' => 
         array (
+            'Core\\' => 5,
             'Config\\' => 7,
         ),
         'A' => 
@@ -65,6 +70,10 @@ class ComposerStaticInit9830cd1a64c6a167bdb56e5576054f26
         array (
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
         ),
+        'Migration\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/db',
+        ),
         'GrahamCampbell\\ResultType\\' => 
         array (
             0 => __DIR__ . '/..' . '/graham-campbell/result-type/src',
@@ -72,6 +81,10 @@ class ComposerStaticInit9830cd1a64c6a167bdb56e5576054f26
         'Dotenv\\' => 
         array (
             0 => __DIR__ . '/..' . '/vlucas/phpdotenv/src',
+        ),
+        'Core\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Core',
         ),
         'Config\\' => 
         array (
@@ -87,6 +100,7 @@ class ComposerStaticInit9830cd1a64c6a167bdb56e5576054f26
         'Attribute' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/Attribute.php',
         'Composer\\InstalledVersions' => __DIR__ . '/..' . '/composer/InstalledVersions.php',
         'Config\\Config' => __DIR__ . '/../..' . '/Config/Config.php',
+        'Core\\Db' => __DIR__ . '/../..' . '/Core/Db.php',
         'Dotenv\\Dotenv' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Dotenv.php',
         'Dotenv\\Exception\\ExceptionInterface' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/ExceptionInterface.php',
         'Dotenv\\Exception\\InvalidEncodingException' => __DIR__ . '/..' . '/vlucas/phpdotenv/src/Exception/InvalidEncodingException.php',
