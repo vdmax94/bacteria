@@ -1,0 +1,6 @@
+CREATE TABLE classes (
+ id INT PRIMARY KEY AUTO_INCREMENT,
+ divisio_id INT NOT NULL,
+ name VARCHAR(150),
+ FOREIGN KEY (divisio_id) REFERENCES divisio(id) ON DELETE NO ACTION
+)
