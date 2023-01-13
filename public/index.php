@@ -13,7 +13,14 @@ use Config\Config;
 use Core\Db;
 
 try{
-    dd(Db::getConnect());
+    $router = new \Core\Router();
+
+    require_once BASE_DIR.'/routes/web.php';
+    if(!preg_match('/assets/i', $_SERVER['REQUEST_URI'])){
+        $router->dispatch($_SERVER['REQUEST_URI']);
+       // d($router->getRoute());
+    }
+
 }catch (PDOException $exception){
     d("Exception: ", $exception->getMessage());
 }catch (Exception $e){
